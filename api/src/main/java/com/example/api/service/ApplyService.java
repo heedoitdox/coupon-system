@@ -1,6 +1,5 @@
 package com.example.api.service;
 
-import com.example.api.domain.CouponEntity;
 import com.example.api.producer.CouponCreateProducer;
 import com.example.api.repository.CouponCountRepository;
 import com.example.api.repository.CouponRepository;
