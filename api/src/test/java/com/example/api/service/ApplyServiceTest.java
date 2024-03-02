@@ -1,5 +1,6 @@
 package com.example.api.service;
 
+import com.example.api.producer.CouponCreateProducer;
 import com.example.api.repository.CouponRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ class ApplyServiceTest {
 
     @Autowired
     private CouponRepository couponRepository;
+
+    @Autowired
+    private CouponCreateProducer couponCreateProducer;
 
     @Test
     public void 한번만응모() {
